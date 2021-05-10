@@ -1,0 +1,402 @@
+    input[type="text"],
+    input[type='password'],
+    select,
+    textarea {
+        border: 2px solid #E5E5E5;
+    }
+
+    input[type="text"],
+    input[type="submit"],
+    input[type='password'],
+    input[type="checkbox"],
+    select,
+    textarea {
+        border-radius: 4px;
+    }
+
+    input[type="text"],
+    input[type='password'],
+    select,
+    textarea {
+        padding-left: 14px;
+    }
+
+    /*å…¨å±€è¾“å…¥æ¡†è°ƒæ•´*/
+    input[type="text"],
+    input[type='password'] {
+        width: 140px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    input[type="submit"] {
+        background-color: #567FE6;
+        color: #FFF;
+        width: 100px;
+        height: 32px;
+        line-height: 32px;
+        border: none;
+        font-size: 18px;
+        text-align: center;
+        text-align-last: center;
+    }
+
+    #cph_r_expand_showcs {
+        width: 86px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    input[type='checkbox'] {
+        width: 17px;
+        height: 17px;
+        background-color: #fff;
+        border: 1px solid #c9c9c9;
+        border-radius: 2px;
+        outline: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+
+    input[type='checkbox']+label {
+        font-size: 16px;
+        position: relative;
+        top: -2px;
+        left: 5px;
+    }
+
+    input[type='checkbox']:checked {
+        color: #567FE6;
+        background: #567FE6 url("../images/checkbox_icon.png")no-repeat center;
+        transition: none;
+        border: none;
+        border-radius: 2px;
+        outline: none;
+    }
+
+    input[type='checkbox']:disabled {
+        background-color: #ddd;
+        border: 1px solid #c9c9c9;
+        border-radius: 4px;
+        outline: none;
+    }
+
+    input[type="radio"]+label::before {
+        content: "\a0";
+        /*Â²Â»Â»Â»ÃÃÂ¿Ã•Â¸Ã±*/
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        width: .8em;
+        height: .8em;
+        margin-right: .4em;
+        border-radius: 50%;
+        border: 1px solid #26988F;
+        text-indent: .15em;
+        line-height: 1;
+    }
+
+    input[type="radio"]:disabled+label::before {
+        content: "\a0";
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        width: .8em;
+        height: .8em;
+        height: 40px;
+        margin-right: .4em;
+        border-radius: 50%;
+        border: 2px solid #c9c9c9;
+        background: #ddd;
+        text-indent: .15em;
+        line-height: 1;
+    }
+
+    input[type="radio"]:checked+label::before {
+        background: url("../images/radio_icon.png") no-repeat center;
+        background-size: 100%;
+        width: .8em;
+        height: .8em;
+    }
+
+    input[type="radio"] {
+        position: relative;
+        left: 17px;
+        top: 3px;
+        opacity: 0;
+    }
+
+    /*å…¨å±€è¾“å…¥æ¡†è°ƒæ•´*/
+    /*æ¯”è¾ƒinput å®½20é«˜4*/
+    select {
+        width: 160px;
+        height: 36px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-image: url('../images/bg_select.png');
+        background-repeat: no-repeat;
+        background-position: 136px center;
+    }
+
+    select::-ms-expand {
+        display: none;
+    }
+
+    textarea {
+        width: 400px;
+        height: 60px;
+    }
+
+
+
+    /*è¡¨å•ä¸­çš„æŽ§ä»¶å®½åº¦å…¨å±€è°ƒæ•´*/
+    dl {
+        margin-top: 5px;
+    }
+
+    dl input[type="text"],
+    dl input[type='password'] {
+        width: 220px;
+    }
+
+    dl input[type="submit"] {
+        width: 150px;
+    }
+
+    dl select {
+        width: 240px;
+        background-position: 216px center;
+    }
+
+    dl textarea {
+        width: 400px;
+        height: 120px;
+    }
+
+
+    .right_form dt {
+        width: 280px;
+        padding-right: 10px;
+        text-align: right;
+        text-align-last: right;
+        font-weight:bold;
+    }
+
+    .right_form dt span {
+        display: block;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .right_form dd span,
+    .margin_top15 dd span {
+        color: #666;
+    }
+
+    .right_form dd span.msgstr,
+    .margin_top15 dd span.msgstr {
+        color: red;
+    }
+
+    .margin_top15 dt {
+        display: inline-block;
+        padding-right: 10px;
+        width: auto;
+        text-align: left;
+        text-align-last: left;
+    }
+
+    .margin_top15 dd {
+        display: inline-block;
+    }
+
+    .margin_top15 dt a {
+        color: #0079AC;
+    }
+
+    #cph_right_right_index dt {
+        color: #26988F;
+        border-right: 1px solid #26988F;
+    }
+
+    #cph_right_right_index p,
+    #cph_right_right_index span {
+        display: inline-block;
+        margin: 0;
+    }
+
+    @media only screen and (max-device-width: 500px) {
+
+        dl textarea {
+            width: 625px;
+            height: 131px;
+            margin-left: 75px;
+        }
+
+        .right_form dl dt {
+            font-size: 30px;
+            text-align: left;
+            text-align-last: left;
+            border-left: 8px solid #567FE6;
+            padding-left: 10px;
+            margin-left: 63px;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #cph_right_e_msg,
+        #cph_right_e_cidate,
+        #cph_right_e_yddh {
+            color: #333;
+            margin-left: 75px;
+            font-size: 30px;
+        }
+
+        #cph_right_e_atschool,
+        #cph_right_e_health,
+        #cph_right_e_iskeyperson,
+        #cph_right_e_observation {
+            margin-left: 75px;
+            width: 500px;
+        }
+
+        input[type="radio"]+label::before,
+        input[type="radio"]:checked+label::before {
+            width: 30px;
+            height: 30px
+        }
+
+        dl input[type="text"] {
+            width: 625px;
+            height: 65px;
+            font-size: 30px;
+            margin-left: 75px;
+        }
+
+        .right_form select {
+            width: 625px;
+            height: 65px;
+            margin-left: 75px;
+            font-size: 30px;
+        }
+
+        .right_form select option {
+            font-size: 10px;
+        }
+
+        .right_form dd #cph_right_e_yxnj {
+            font-size: 30px;
+            margin-left: 75px;
+            display: flow-root
+        }
+
+        .right_form dd span {
+            font-size: 30px;
+            margin-left: 75px;
+        }
+
+        #cph_right_e_health td {
+            font-size: 30px;
+        }
+
+        input[type='checkbox'] {
+            width: 40px;
+            height: 40px;
+            margin-left: 60px;
+        }
+
+        input[type='checkbox']+label {
+            font-size: 30px;
+            position: relative;
+            top: 0px;
+            left: 5px;
+        }
+
+        dl #cph_right_e_submit {
+            width: 257px;
+            height: 78px;
+            font-size: 44px;
+            left: 60%;
+            position: absolute;
+            transform: translateX(-50%);
+        }
+
+        dl #cph_right_e_delete {
+            width: 257px;
+            height: 78px;
+            font-size: 44px;
+            left: 30%;
+            position: absolute;
+            transform: translateX(-50%);
+        }
+
+        .rightgrid {
+            margin-bottom: 70px;
+        }
+
+        .linkpanel {
+            height: 50px
+        }
+
+        #cph_r_expand_pn_go {
+            background-color: #567FE6;
+            color: #FFF;
+            width: 130px;
+            height: 36px;
+            line-height: 36px;
+            border: none;
+            font-size: 30px;
+            text-align: center;
+            text-align-last: center;
+            border-radius: 4px;
+            padding: 12px 40px;
+            position: absolute;
+            right: 330px;
+        }
+
+
+        #cph_r_expand_pn_back {
+            background-color: #567FE6;
+            color: #FFF;
+            width: 130px;
+            height: 36px;
+            line-height: 36px;
+            border: none;
+            font-size: 30px;
+            text-align: center;
+            text-align-last: center;
+            border-radius: 4px;
+            padding: 12px 40px;
+            position: absolute;
+            right: 90px;
+        }
+
+        input[type="file"i] {
+            -webkit-appearance: initial;
+            background-color: initial;
+            cursor: default;
+            align-items: baseline;
+            color: inherit;
+            text-align: start !important;
+            padding: initial;
+            border: initial;
+            margin-left: 70px;
+        }
+
+        dl input[type='password'] {
+            width: 220px;
+            margin-left: 60px;
+        }
+    }
+
+
+    .sqbtable span {
+        word-break: normal;
+        width: auto;
+        display: block;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-width: 563px;
+    }
