@@ -1,0 +1,204 @@
+.container {
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+}
+
+.grid1of4 {
+	width: 35%;
+}
+
+.grid2of4 {
+	width: 63%;
+}
+
+.grid3of4 {
+	width: 92%;
+}
+
+.grant {
+	width: 1%;
+}
+
+.go_away {
+	width: 1%;
+}
+
+@media all and (min-width:1650px) {
+	.container {
+		width: 1650px;
+	}
+}
+
+@media all and (max-width:1210px) and (min-width:831px) {
+	.colorul ul li {
+		width: 35%;
+		margin-top: 8px;
+		display: block;
+	}
+
+	.colorul a {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	.grid_signin {
+		top: 0px;
+		width: 63%;
+		right: 0px;
+		position: absolute;
+	}
+
+	.grid_process {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:1210px) {
+	.bg_grant a {
+		background: url("../images/grant_icon_orange.png") no-repeat 16px 17px rgb(255, 255, 255);
+	}
+
+	.bg_health a {
+		background: url("../images/health_icon_orange.png") no-repeat 18px 16px rgb(255, 255, 255);
+	}
+
+	.bg_stay a {
+		background: url("../images/stay_icon_orange.png") no-repeat 20px 15px rgb(255, 255, 255);
+	}
+
+	.bg_work a {
+		background: url("../images/work_icon_orange.png") no-repeat 20px 17px rgb(255, 255, 255);
+	}
+}
+
+@media all and (max-width:830px) {
+	.colorul li {
+		width: 100%;
+		margin-bottom: 8px;
+		display: table;
+	}
+
+	.colorul a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.grid_signin {
+		width: 100%;
+		margin-bottom: 20px;
+		display: table;
+	}
+
+	.grid_process {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.colorul {
+		margin-bottom: 40px;
+	}
+
+	.grant {
+		width: 100%;
+		display: table;
+	}
+
+	.go_away {
+		width: 100%;
+		display: table;
+	}
+
+	.grant {
+		border: currentColor;
+		border-image: none;
+		margin-bottom: 20px;
+	}
+
+	.copy {
+		font-size: 13px;
+	}
+
+	.leftgrid {
+		display: none;
+	}
+
+	.main_right {
+		width: 100%;
+		float: none;
+	}
+}
+
+
+@media all and (max-width:1360px) {
+	.grant {
+		font-size: 15px;
+	}
+
+	.go_away {
+		font-size: 15px;
+	}
+
+	.grid_signin li {
+		font-size: 15px;
+	}
+
+	.colorul a {
+		font-size: 18px;
+	}
+
+	.copy {
+		font-size: 15px;
+	}
+}
+
+@media all and (max-width:1130px) {
+	.menu>li {
+		font-size: 15px;
+	}
+
+	.menu li a {
+		padding: 0px 12px;
+	}
+
+	.menu li ul a {
+		font-size: 14px;
+	}
+
+	nav {
+		min-height: 60px;
+	}
+
+	.menu>li {
+		min-height: 60px;
+	}
+
+	.menu li a {
+		margin-top: 12px;
+	}
+
+	.menu ul {
+		margin-top: 12px;
+	}
+
+	.menu ul {
+		min-width: 86px;
+	}
+
+	.menu .fx a {
+		padding-right: 10px;
+		padding-left: 20px;
+	}
+}
+
+@media all and (max-width:500px) {
+	.container {
+		width: 500px;
+	}
+}
+
+/* @media all and (min-device-width:600px) {
+	.grid3of4 {
+		min-width: 1095px;
+	}
+} */

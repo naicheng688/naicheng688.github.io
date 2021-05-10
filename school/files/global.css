@@ -1,0 +1,218 @@
+.grid_sys {
+	position: relative;
+  background: #F3F4F6 url('../images/banner.png') no-repeat center;
+  background-size: 100% 100%;
+  margin-bottom: 30px;
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+dl,
+dt,
+dd,
+form,
+input,
+button,
+a,
+span {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei", SimSun, serif;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-size: 16px;
+  background-color: #F4F8F7;
+  color: #333;
+}
+
+.msgstr{
+    color:red;
+}
+
+#footright,
+.footleft,
+.menu > li,
+.grid_sys a,
+#ctl00_cph_default_Button1,
+.colorul ul li,
+.grant h3,
+.grant ol,
+.go_away ol,
+.go_away h3,
+th[colspan="7"] span,
+.right_form dt,
+.right_form dd,
+.margin_top15 dt,
+.margin_top15 dd,
+.grid_sys .logined_logo,
+.right_apps li,
+.grid_sys .logined_service,
+.menu .login_info a,
+.form_info > h1 {
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+nav {
+  background-color: #FFF;
+  min-height: 60px;
+}
+
+.menu {
+  text-align: left;
+  text-align-last: left;
+  font-size: 0;
+}
+
+.menu>li {
+  font-size: 16px;
+  min-height: 60px;
+  margin-left: -1px;
+}
+
+.menu li a {
+  display: block;
+  line-height: 36px;
+  padding: 0 18px;
+  margin-top: 12px;
+  border-left: 1px solid #DFDFDF;
+  color: #565656;
+}
+
+.menu .fx a {
+  border: none;
+  padding-left: 55px;
+  padding-right: 30px;
+}
+
+.fx img {
+  vertical-align: middle;
+}
+
+.menu .color1>a {
+  color: rgba(38, 152, 143, 1);
+  border: none;
+}
+
+.menu li:hover {
+  background-color: #C2EDFD;
+}
+
+.menu .login_info {
+  float: right;
+  padding-right: 56px;
+  font-size: 16px;
+}
+
+.menu .login_info:hover {
+  background-color: #FFF;
+}
+
+.menu .login_info a {
+  padding: 0 2px;
+  border: none;
+  color: #EA8542;
+}
+
+.login_info img {
+  vertical-align: middle;
+}
+
+.menu .login_info .submit2 {
+  color: #787878;
+}
+
+.menu ul {
+  display: none;
+  background: #FFF;
+  border: 1px solid #DFDFDF;
+  position: absolute;
+  margin-top: 12px;
+  z-index: 5;
+  margin-left: -1px;
+  min-width: 103px;
+}
+
+.menu li ul a {
+  font-size: 15px;
+  color: #565656;
+  line-height: 45px;
+  margin: 0;
+}
+
+.menu ul li a:hover {
+  color: #26988F;
+  background-color: #C2EDFD;
+}
+
+.menu li:hover>ul {
+  display: block;
+  border: none;
+}
+
+.copy {
+  background-color: #567FE6;
+  min-height: 100px;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+#footright {
+  text-align: left;
+  text-align-last: left;
+  padding-top: 17px;
+  padding-left: 10px;
+  font-size: 13px;
+}
+
+#footright span {
+  line-height: 22px;
+}
+
+#footright a {
+  color: #FDD5AF;
+  text-decoration: underline;
+}
+
+#footright a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footleft {
+  padding-top: 22px;
+}
+
+.clearfix {
+  clear: both;
+}
+

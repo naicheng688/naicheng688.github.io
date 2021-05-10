@@ -1,0 +1,527 @@
+.logo,
+.logined_logo {
+    position: absolute;
+    left: 60px;
+}
+
+.logo {
+    width: 210px;
+    height: 100px;
+    top: 35px;
+}
+
+.logined_logo {
+    width: 168px;
+    height: 80px;
+    top: 20px;
+}
+
+.scnu_service,
+.logined_service {}
+
+@media all and (max-width:980px) {
+    .scnu_service,
+    .logined_service {
+        position:relative!important;
+        left:17%!important;
+    }
+}
+
+.scnu_service {
+    line-height: 180px;
+}
+
+.logined_service {
+    line-height: 120px;
+}
+
+.grid_sys_index {
+    display: none;
+}
+
+.grid_sys .submit_unified {
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-image: none;
+    width: 17%;
+    color: rgba(223, 107, 32, 1);
+    line-height: 44px;
+    font-size: 20px;
+    margin-right: 5%;
+    margin-bottom: 24px;
+    display: none;
+    min-width: 220px;
+    box-shadow: 2px 0px 8px rgba(220, 220, 220, 1);
+    background-color: rgb(255, 255, 255);
+}
+
+.grid_sys span {
+    display: none;
+}
+
+#ctl00_cph_default_Button1 {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-image: none;
+    width: 11%;
+    color: rgba(255, 255, 255, 1);
+    line-height: 44px;
+    font-size: 20px;
+    display: none;
+    min-width: 135px;
+}
+
+#login_local {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-image: none;
+    width: 11%;
+    color: rgba(255, 255, 255, 1);
+    line-height: 44px;
+    font-size: 20px;
+    display: none;
+    min-width: 135px;
+}
+
+.submit_local {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-image: none;
+    width: 11%;
+    color: rgba(255, 255, 255, 1);
+    line-height: 44px;
+    font-size: 20px;
+    display: none;
+    min-width: 135px;
+}
+
+#ctl00_cph_default_Button1 {
+    height: 48px;
+}
+
+.service {
+    width: 436px;
+    height: 40px;
+}
+
+#ctl00_cph_default_grid_login {
+    top: 100px;
+    width: 200px;
+    display: none;
+    position: absolute;
+}
+
+#ctl00_cph_default_grid_myinf {
+    display: none;
+}
+
+.signin_form .submit {
+    display: none;
+}
+
+#ctl00_cph_default_logout {
+    top: 19px;
+    right: 14px;
+    color: rgb(120, 120, 120);
+    display: inline;
+    position: absolute;
+}
+
+#ctl00_logout {
+    top: 19px;
+    right: 14px;
+    color: rgb(120, 120, 120);
+    display: inline;
+    position: absolute;
+}
+
+.colorul {
+    margin-bottom: 40px;
+}
+
+.colorul ul {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.colorul li {
+    width: 24%;
+    font-size: 20px;
+}
+
+.colorul a {
+    border: 2px solid rgb(255, 255, 255);
+    border-image: none;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 70px;
+    display: block;
+    text-align: left;
+    text-align-last: left;
+}
+
+.bg_grant a {
+    background: url("../images/grant_icon_orange.png") no-repeat 16px 32px rgb(255, 255, 255);
+}
+
+.bg_health a {
+    background: url("../images/health_icon_orange.png") no-repeat 18px 30px rgb(255, 255, 255);
+}
+
+.bg_stay a {
+    background: url("../images/stay_icon_orange.png") no-repeat 20px 28px rgb(255, 255, 255);
+}
+
+.bg_work a {
+    background: url("../images/work_icon_orange.png") no-repeat 20px 30px rgb(255, 255, 255);
+}
+
+.colorul li:hover a {
+    border: 2px solid rgb(55, 171, 172);
+    border-image: none;
+    color: rgb(55, 171, 172);
+}
+
+.bg_grant:hover a {
+    background-image: url("../images/grant_icon_green.png");
+}
+
+.bg_health:hover a {
+    background-image: url("../images/health_icon_green.png");
+}
+
+.bg_stay:hover a {
+    background-image: url("../images/stay_icon_green.png");
+}
+
+.bg_work:hover a {
+    background-image: url("../images/work_icon_green.png");
+}
+
+.colorul a:hover span {
+    color: rgb(55, 171, 172);
+}
+
+.colorul span {
+    margin: 0px;
+    color: rgb(153, 153, 153);
+    padding-top: 10px;
+    font-size: 14px;
+    display: block;
+}
+
+.grid_signin {
+    text-align: left;
+    float: left;
+    -ms-text-align-last: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid_signin h2 {
+    margin: 0px auto 20px;
+    top: -19px;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: normal;
+    display: table;
+    position: relative;
+    background-image: url("../images/bg_title_icon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.grid_process h2 {
+    margin: 0px auto 20px;
+    top: -19px;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: normal;
+    display: table;
+    position: relative;
+    background-image: url("../images/bg_title_icon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.grid_signin h2 {
+    padding: 5px 16px 6px 15px;
+}
+
+.grid_process h2 {
+    padding: 5px 28px 6px 25px;
+}
+
+.grid_signin h2 span {
+    display: none;
+}
+
+.grid_signin ul {
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    font-size: 16px;
+    min-height: 223px;
+}
+
+.grid_signin li {
+    line-height: 30px;
+}
+
+.grid_signin a {
+    color: rgb(0, 121, 172);
+}
+
+.grid_signin span {
+    color: rgb(51, 51, 51);
+}
+
+.grid_process {
+    text-align: left;
+    padding-bottom: 15px;
+    float: right;
+    -ms-text-align-last: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.grant {
+    height: 223px;
+    display: table-cell;
+}
+
+.go_away {
+    height: 223px;
+    display: table-cell;
+}
+
+.grant h3 {
+    top: 48px;
+    width: 20px;
+    color: rgb(223, 107, 32);
+    letter-spacing: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    position: relative;
+    -ms-word-wrap: break-word;
+}
+
+.go_away h3 {
+    top: 48px;
+    width: 20px;
+    color: rgb(223, 107, 32);
+    letter-spacing: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    position: relative;
+    -ms-word-wrap: break-word;
+}
+
+.grant li {
+    list-style: decimal inside;
+    line-height: 30px;
+    text-align: left;
+    text-align-last: left;
+}
+
+.go_away li {
+    list-style: decimal inside;
+    line-height: 30px;
+    text-align: left;
+    text-align-last: left;
+}
+
+.grant {
+    border-right-color: rgb(210, 210, 210);
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.content {
+    margin: 0px auto 20px;
+    text-align: justify;
+    position: relative;
+    -ms-text-align-last: justify;
+}
+
+.main_content {
+    margin: 0px auto;
+}
+
+.leftgrid {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.left_menu li {
+    height: 42px;
+    margin-bottom: -1px;
+    max-width: 220px;
+}
+
+.left_menu a {
+    border: 1px solid rgb(223, 223, 223);
+    border-image: none;
+    color: rgb(86, 86, 86);
+    line-height: 42px;
+    font-size: 16px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding:0 20px;
+}
+
+.left_menu a:hover {
+    border: currentColor;
+    border-image: none;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/bg_nav_icon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(244, 248, 247);
+}
+
+.left_menu li.sel a {
+    border: currentColor;
+    border-image: none;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/bg_nav_icon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(244, 248, 247);
+}
+
+@media only screen and (max-device-width: 500px) {
+
+    /* 小于等于500px时，消失左边栏 */
+    .left_menu {
+        display: none;
+    }
+
+    .grid_obj {
+        display: flex;
+    }
+
+    .grid_obj>div {
+        display: flex;
+    }
+
+    .right_expand a {}
+
+    .leftgrid {
+        /*width: 16%;*/
+        float: none;
+    }
+}
+
+
+#ctl00_grid_obj {
+    position: relative;
+    right: 5px;
+    margin-bottom: 10px;
+    width: 220px;
+}
+
+#ctl00_obj_key {
+    padding-left: 10px;
+    width: 160px;
+    margin-bottom: 4px;
+}
+
+#ctl00_obj_sel {
+    width: 174px;
+}
+
+/*超管开放后修复的样式*/
+.r_bottom {
+    margin-top: 10px;
+}
+
+.right_expand {
+    margin-bottom: 10px;
+}
+
+
+#ctl00_cph_r_expand_sc_submit input[type="submit"], /*唐增加对提交按钮的限定 20200222*/
+#ctl00_cph_r_expand_VacAdd,
+#ctl00_cph_r_expand_sel_submit,
+#ctl00_cph_r_expand_pn_sub,
+#ctl00_cph_r_expand_sc_delall,
+.right_expand a,
+#ctl00_cph_right_prt,
+#ctl00_cph_right_exp {
+    background-color: #567FE6;
+    color: #FFF;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    text-align-last: center;
+    border-radius: 4px;
+    padding: 7px 28px;
+}
+
+    /*唐添加 20200222*/
+    .right_expand a {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        line-height: 28px;
+        padding: 4px 8px;
+    }
+
+    /*唐添加 20200222*/
+    .right_expand input, .right_expand select, .right_expand a {
+        margin-bottom: 3px;
+    }
+	
+.right_expand input[type="submit"] {
+    padding: 0 !important;
+}
+
+.r_expand {
+    text-align: left;
+    text-align-last: left;
+}
+
+#ctl00_cph_right_gv1 a,
+#ctl00_cph_right_gv a {
+    color: #2D78B1;
+}
+
+#ctl00_cph_right_gv1 a:hover,
+#ctl00_cph_right_gv a:hover {
+    color: #26988F;
+    text-decoration: underline;
+}
+
+#ctl00_cph_right_myapps {
+    text-align: left;
+    text-align-last: left
+}
+
+#ctl00_cph_right_myapps li {
+    text-align: center;
+    text-align-last: center;
+}
+
+.linkpanel,
+.r_panel_nav {
+    text-align: right;
+    text-align-last: right;
+}
+
+/* 
+    为什么会这这样一段代码呢
+    a[href="opt_rc_zdgl.aspx?key=JMOScAf1byTdCo9x"] {
+    display: inline;
+    padding: 7px 28px;
+}*/
